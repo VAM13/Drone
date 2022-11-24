@@ -1,0 +1,653 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/New Material.mat
+    - Assets/New Material.mat.meta
+    - Assets/ProfessionalAssets.meta
+    - Assets/ProfessionalAssets/DronePack.meta
+    - Assets/ProfessionalAssets/DronePack/Animations.meta
+    - Assets/ProfessionalAssets/DronePack/Animations/blue-red.anim
+    - Assets/ProfessionalAssets/DronePack/Animations/blue-red.anim.meta
+    - Assets/ProfessionalAssets/DronePack/Animations/fan.anim
+    - Assets/ProfessionalAssets/DronePack/Animations/fan.anim.meta
+    - Assets/ProfessionalAssets/DronePack/Animations/goalie.anim
+    - Assets/ProfessionalAssets/DronePack/Animations/goalie.anim.meta
+    - Assets/ProfessionalAssets/DronePack/Animations/red-blue.anim
+    - Assets/ProfessionalAssets/DronePack/Animations/red-blue.anim.meta
+    - Assets/ProfessionalAssets/DronePack/Editor.meta
+    - Assets/ProfessionalAssets/DronePack/Editor/PA_DroneAxisInputEditor.cs
+    - Assets/ProfessionalAssets/DronePack/Editor/PA_DroneAxisInputEditor.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Editor/PA_DroneCameraEditor.cs
+    - Assets/ProfessionalAssets/DronePack/Editor/PA_DroneCameraEditor.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Editor/PA_DroneControllerEditor.cs
+    - Assets/ProfessionalAssets/DronePack/Editor/PA_DroneControllerEditor.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Editor/cmpl.meta
+    - Assets/ProfessionalAssets/DronePack/Editor/cmpl/PA_DronePackEditor.dll
+    - Assets/ProfessionalAssets/DronePack/Editor/cmpl/PA_DronePackEditor.dll.meta
+    - Assets/ProfessionalAssets/DronePack/InputManager.asset
+    - Assets/ProfessionalAssets/DronePack/InputManager.asset.meta
+    - Assets/ProfessionalAssets/DronePack/Materials.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Badge [professional assets].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Badge [professional assets].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [cyan].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [cyan].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [lime].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [lime].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [red].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [red].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [yellow].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/BeamMaterial [yellow].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Black.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Black.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Cannon [Inside].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Cannon [Inside].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Cannon [Outside].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Cannon [Outside].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/CannonBall [Metalic].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/CannonBall [Metalic].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/CannonBall [RimGlow].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/CannonBall [RimGlow].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Cubes.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Cubes.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Domino 52.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Domino 52.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Domino 63.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Domino 63.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/EmitRed.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/EmitRed.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/FanMain.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/FanMain.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/FanSwitch.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/FanSwitch.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Goalie.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Goalie.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Grass [Mobile].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Grass [Mobile].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Grey.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Grey.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/HardParticle.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/HardParticle.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Logo.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Logo.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/PlatformLogos.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/PlatformLogos.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Projector [cyan].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Projector [cyan].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Projector [purple].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Projector [purple].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Projector [white].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Projector [white].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Red.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Red.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/Rock [Mobile].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/Rock [Mobile].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/SoccerBall.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/SoccerBall.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/SoccerGoal.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/SoccerGoal.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/SoccerNet [Particle].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/SoccerNet [Particle].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/SoftDot [Particle].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/SoftDot [Particle].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/SoftSquare [Particle].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/SoftSquare [Particle].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/TrafficCone.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/TrafficCone.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/VertexAlpha.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/VertexAlpha.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/ViveDroneRemote.mat
+    - Assets/ProfessionalAssets/DronePack/Materials/ViveDroneRemote.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [electric].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [electric].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [golden].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [golden].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [jungle].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [jungle].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [silver].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_BumbleBee [silver].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [desert recon].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [desert recon].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [disco].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [disco].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [drone patrol animated].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [drone patrol animated].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [drone patrol].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [drone patrol].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [space probe animated].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [space probe animated].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [space probe].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_Quad [space probe].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [clownfish].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [clownfish].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [ladybug].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [ladybug].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [racecar].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [racecar].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [warhawk].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_ToadMaterial [warhawk].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [alien-animated].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [alien-animated].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [alien].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [alien].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [ancient-animated].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [ancient-animated].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [ancient].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [ancient].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [crystal-animated].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [crystal-animated].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [crystal].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [crystal].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [marine-animated].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [marine-animated].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [marine].mat
+    - Assets/ProfessionalAssets/DronePack/Materials/_UFOMaterial [marine].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Ball].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Ball].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Cannon].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Cannon].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Domino].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Domino].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Goalie].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Goalie].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Logo].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Logo].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [PlatFormLogos].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [PlatFormLogos].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [SoccerNet].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [SoccerNet].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [TrafficCone].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [TrafficCone].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Turbine].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [Turbine].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [ViveDroneRemote].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/FBX Mesh [ViveDroneRemote].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/Materials.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/Materials/Default Material.mat
+    - Assets/ProfessionalAssets/DronePack/Meshes/Materials/Default Material.mat.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [BumbleBee].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [BumbleBee].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [Quad].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [Quad].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [Toad].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [Toad].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [UFO].FBX
+    - Assets/ProfessionalAssets/DronePack/Meshes/_FBX Mesh [UFO].FBX.meta
+    - Assets/ProfessionalAssets/DronePack/Misc.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyBox [Day].mat
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyBox [Day].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyBox [Dusk].mat
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyBox [Dusk].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyLightBox [Day].hdr
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyLightBox [Day].hdr.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyLightBox [Dusk].hdr
+    - Assets/ProfessionalAssets/DronePack/Misc/HDRI SkyLightBox [Dusk].hdr.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/PhyscialMaterial [SoccerBall].physicMaterial
+    - Assets/ProfessionalAssets/DronePack/Misc/PhyscialMaterial [SoccerBall].physicMaterial.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/PhysicalMaterial [Drone].physicMaterial
+    - Assets/ProfessionalAssets/DronePack/Misc/PhysicalMaterial [Drone].physicMaterial.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/PostEffect [Main].asset
+    - Assets/ProfessionalAssets/DronePack/Misc/PostEffect [Main].asset.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/PostEffect [Vive].asset
+    - Assets/ProfessionalAssets/DronePack/Misc/PostEffect [Vive].asset.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/ReflectionProbe-0.exr
+    - Assets/ProfessionalAssets/DronePack/Misc/ReflectionProbe-0.exr.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/ReflectionProbe-1.exr
+    - Assets/ProfessionalAssets/DronePack/Misc/ReflectionProbe-1.exr.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/ReflectionProbe-2.exr
+    - Assets/ProfessionalAssets/DronePack/Misc/ReflectionProbe-2.exr.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/RenderMaterial [DroneCamera].mat
+    - Assets/ProfessionalAssets/DronePack/Misc/RenderMaterial [DroneCamera].mat.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/RenderTexture [DroneCamera].renderTexture
+    - Assets/ProfessionalAssets/DronePack/Misc/RenderTexture [DroneCamera].renderTexture.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/Terrain [Playground].asset
+    - Assets/ProfessionalAssets/DronePack/Misc/Terrain [Playground].asset.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_Dirt [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_Dirt [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DirtGrass
+      [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DirtGrass
+      [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DryGrass
+      [Albedo](15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DryGrass
+      [Albedo](15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DryGrass2
+      [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DryGrass2
+      [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DryGrass3
+      [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_DryGrass3
+      [Albedo](5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_RockyGrass
+      [Albedo](3.000,3.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    - Assets/ProfessionalAssets/DronePack/Misc/_TerrainAutoUpgrade/layer_RockyGrass
+      [Albedo](3.000,3.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/CannonBall [Glow].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/CannonBall [Glow].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/CannonBall [Iron].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/CannonBall [Iron].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/Drone [Camera].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/Drone [Camera].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/Spark [Particle Effect].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/Spark [Particle Effect].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/VR 3DJoystick.prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/VR 3DJoystick.prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [BumbleBee].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [BumbleBee].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [Quad].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [Quad].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [Toad].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [Toad].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [UFO].prefab
+    - Assets/ProfessionalAssets/DronePack/Prefabs/_Drone [UFO].prefab.meta
+    - Assets/ProfessionalAssets/DronePack/READ ME!.pdf
+    - Assets/ProfessionalAssets/DronePack/READ ME!.pdf.meta
+    - Assets/ProfessionalAssets/DronePack/Scenes.meta
+    - Assets/ProfessionalAssets/DronePack/Scenes/DronePlayground [Mobile].unity
+    - Assets/ProfessionalAssets/DronePack/Scenes/DronePlayground [Mobile].unity.meta
+    - Assets/ProfessionalAssets/DronePack/Scenes/DronePlayground [OpenVR].unity
+    - Assets/ProfessionalAssets/DronePack/Scenes/DronePlayground [OpenVR].unity.meta
+    - Assets/ProfessionalAssets/DronePack/Scenes/DronePlayground.unity
+    - Assets/ProfessionalAssets/DronePack/Scenes/DronePlayground.unity.meta
+    - Assets/ProfessionalAssets/DronePack/Scenes/DroneSelection.unity
+    - Assets/ProfessionalAssets/DronePack/Scenes/DroneSelection.unity.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/CameraTeleportEffect.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/CameraTeleportEffect.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/ColliderProxy.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/ColliderProxy.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/DroneDistanceLimit.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/DroneDistanceLimit.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/DroneSelection.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/DroneSelection.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/EnviromentLighting.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/EnviromentLighting.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/LevelManager.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/LevelManager.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/LookAt.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/LookAt.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/NightLights.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/NightLights.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/PAVR_3DJoystick.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/PAVR_3DJoystick.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/PAVR_DroneRemote.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/PAVR_DroneRemote.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_DroneAxisInput.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_DroneAxisInput.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_DroneCamera.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_DroneCamera.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_DroneController.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_DroneController.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_ObjectID.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/PA_ObjectID.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/ProximityCannon.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/ProximityCannon.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/SoccerGame.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/SoccerGame.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/Turbine.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/Turbine.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/Turnable.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/Turnable.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/WebGLHideMouse.cs
+    - Assets/ProfessionalAssets/DronePack/Scripts/WebGLHideMouse.cs.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/cmpl.meta
+    - Assets/ProfessionalAssets/DronePack/Scripts/cmpl/PA_DronePack.dll
+    - Assets/ProfessionalAssets/DronePack/Scripts/cmpl/PA_DronePack.dll.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders/DronePatrolAnimated.shader
+    - Assets/ProfessionalAssets/DronePack/Shaders/DronePatrolAnimated.shader.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders/RimGlowShader.shader
+    - Assets/ProfessionalAssets/DronePack/Shaders/RimGlowShader.shader.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders/SpaceProbeAnimated.shader
+    - Assets/ProfessionalAssets/DronePack/Shaders/SpaceProbeAnimated.shader.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders/StandardShader [DoubleSided].shader
+    - Assets/ProfessionalAssets/DronePack/Shaders/StandardShader [DoubleSided].shader.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders/StandardSpecular [DoubleSided].shader
+    - Assets/ProfessionalAssets/DronePack/Shaders/StandardSpecular [DoubleSided].shader.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders/UFOAnimated.shader
+    - Assets/ProfessionalAssets/DronePack/Shaders/UFOAnimated.shader.meta
+    - Assets/ProfessionalAssets/DronePack/Shaders/VertexAlpha.shader
+    - Assets/ProfessionalAssets/DronePack/Shaders/VertexAlpha.shader.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/BumbleBee [flying].wav
+    - Assets/ProfessionalAssets/DronePack/Sounds/BumbleBee [flying].wav.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Cannon [Charging].aiff
+    - Assets/ProfessionalAssets/DronePack/Sounds/Cannon [Charging].aiff.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Cannon [Fire].wav
+    - Assets/ProfessionalAssets/DronePack/Sounds/Cannon [Fire].wav.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Day [Ambient].wav
+    - Assets/ProfessionalAssets/DronePack/Sounds/Day [Ambient].wav.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Drone [impact].mp3
+    - Assets/ProfessionalAssets/DronePack/Sounds/Drone [impact].mp3.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Night [Ambient].wav
+    - Assets/ProfessionalAssets/DronePack/Sounds/Night [Ambient].wav.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Quad [flying].mp3
+    - Assets/ProfessionalAssets/DronePack/Sounds/Quad [flying].mp3.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Quad [police chatter].mp3
+    - Assets/ProfessionalAssets/DronePack/Sounds/Quad [police chatter].mp3.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/Toad [flying].wav
+    - Assets/ProfessionalAssets/DronePack/Sounds/Toad [flying].wav.meta
+    - Assets/ProfessionalAssets/DronePack/Sounds/UFO [flying].wav
+    - Assets/ProfessionalAssets/DronePack/Sounds/UFO [flying].wav.meta
+    - Assets/ProfessionalAssets/DronePack/Textures.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [diffuse].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [diffuse].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [emission].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [emission].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [metal-gloss].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [metal-gloss].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [normal].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/Badge [normal].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Cube [Emission].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/Cube [Emission].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Dirt [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/Dirt [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/DirtGrass [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/DirtGrass [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino25 [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino25 [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino25 [Normal].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino25 [Normal].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino36 [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino36 [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino36 [Normal].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/Domino36 [Normal].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/DryGrass [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/DryGrass [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/DryGrass2 [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/DryGrass2 [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/DryGrass3 [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/DryGrass3 [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/FanMain [Emission].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/FanMain [Emission].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Goalie [Albedo].PNG
+    - Assets/ProfessionalAssets/DronePack/Textures/Goalie [Albedo].PNG.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Logo [Albedo].png
+    - Assets/ProfessionalAssets/DronePack/Textures/Logo [Albedo].png.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Logo [Emission].png
+    - Assets/ProfessionalAssets/DronePack/Textures/Logo [Emission].png.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/PlatformLogos [Albedo].png
+    - Assets/ProfessionalAssets/DronePack/Textures/PlatformLogos [Albedo].png.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Rock [Albedo].png
+    - Assets/ProfessionalAssets/DronePack/Textures/Rock [Albedo].png.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/Rock [Normal].png
+    - Assets/ProfessionalAssets/DronePack/Textures/Rock [Normal].png.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/RockyGrass [Albedo].jpg
+    - Assets/ProfessionalAssets/DronePack/Textures/RockyGrass [Albedo].jpg.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/SoccerBall [Albedo].png
+    - Assets/ProfessionalAssets/DronePack/Textures/SoccerBall [Albedo].png.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/SoccerBall [Normal].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/SoccerBall [Normal].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/SoccerNet [Albedo].png
+    - Assets/ProfessionalAssets/DronePack/Textures/SoccerNet [Albedo].png.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/TrafficCone [Albedo].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/TrafficCone [Albedo].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/TrafficCone [Normal].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/TrafficCone [Normal].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/ViveDroneRemote_albedo.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/ViveDroneRemote_albedo.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/ViveDroneRemote_normal.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/ViveDroneRemote_normal.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Albedo] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Ambient] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Ambient] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Emissive] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Metalness] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Metalness] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Metalness].tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Metalness].tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Normal] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Normal] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Normal] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_BumbleBee [Normal] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [albedo-diffuse] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission-animated] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission-animated] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission-animated] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission-animated] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [emission] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [height] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [height] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [metal-gloss] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [normal] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [occlusion] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Quad [occlusion] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Albedo] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Ambient] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Ambient] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Emissive] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Normal] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Normal] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Specular] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_Toad [Specular] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Ambient] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Ambient] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Ambient] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Ambient] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Diffuse] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Diffuse] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Diffuse] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Diffuse] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 2.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 3.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 3.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 4.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Emmision] 4.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Normal] 1.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Normal] 1.tga.meta
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Normal] 2.tga
+    - Assets/ProfessionalAssets/DronePack/Textures/_UFO [Normal] 2.tga.meta
+    - Assets/ProfessionalAssets/UIPack.meta
+    - Assets/ProfessionalAssets/UIPack/Prefabs.meta
+    - Assets/ProfessionalAssets/UIPack/Prefabs/Joystick [UI].prefab
+    - Assets/ProfessionalAssets/UIPack/Prefabs/Joystick [UI].prefab.meta
+    - Assets/ProfessionalAssets/UIPack/Scripts.meta
+    - Assets/ProfessionalAssets/UIPack/Scripts/PAUI_Joystick.cs
+    - Assets/ProfessionalAssets/UIPack/Scripts/PAUI_Joystick.cs.meta
+    - Assets/ProfessionalAssets/UIPack/Sprites.meta
+    - Assets/ProfessionalAssets/UIPack/Sprites/ArrowLeft.png
+    - Assets/ProfessionalAssets/UIPack/Sprites/ArrowLeft.png.meta
+    - Assets/ProfessionalAssets/UIPack/Sprites/ArrowRight.png
+    - Assets/ProfessionalAssets/UIPack/Sprites/ArrowRight.png.meta
+    - Assets/ProfessionalAssets/UIPack/Sprites/joystick.png
+    - Assets/ProfessionalAssets/UIPack/Sprites/joystick.png.meta
+    - Assets/ProfessionalAssets/UIPack/Sprites/joystickHandle.png
+    - Assets/ProfessionalAssets/UIPack/Sprites/joystickHandle.png.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Materials.meta
+    - Assets/Scenes/Materials/segment 1.mat
+    - Assets/Scenes/Materials/segment 1.mat.meta
+    - Assets/Scenes/New Material.mat
+    - Assets/Scenes/New Material.mat.meta
+    - Assets/Scenes/Rope.mat
+    - Assets/Scenes/Rope.mat.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/Speedometer.cs
+    - Assets/Scenes/Speedometer.cs.meta
+    - Assets/Scenes/meter.png
+    - Assets/Scenes/meter.png.meta
+    - Assets/Scenes/part.prefab
+    - Assets/Scenes/part.prefab.meta
+    - Assets/Scenes/stick.png
+    - Assets/Scenes/stick.png.meta
+    - Assets/Scenes/tethered box.png
+    - Assets/Scenes/tethered box.png.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
